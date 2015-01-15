@@ -156,41 +156,41 @@ jQuery(document).ready(function($) {
 	 Flex Initialize
    --------------------------------------------------------	*/	
 
-$(window).load(function() {
+// $(window).load(function() {
 
-  $('.flex-1').flexslider({
-    animation: "slide",
-    slideshow: false,
-    useCSS : false,
-    animationLoop: true 	
-  });
+//   $('.flex-1').flexslider({
+//     animation: "slide",
+//     slideshow: false,
+//     useCSS : false,
+//     animationLoop: true 	
+//   });
  
-  jQuery('.flex-1 .flex-direction-nav .flex-next').html('<i class="icon-angle-right"></i>');
-  jQuery('.flex-1 .flex-direction-nav .flex-prev').html('<i class="icon-angle-left"></i>'); 
+//   jQuery('.flex-1 .flex-direction-nav .flex-next').html('<i class="icon-angle-right"></i>');
+//   jQuery('.flex-1 .flex-direction-nav .flex-prev').html('<i class="icon-angle-left"></i>'); 
  
-  $('.flex-2').flexslider({
-    animationLoop: false,
-		animation: 'slide',
-    useCSS : false
-	 });     
+//   $('.flex-2').flexslider({
+//     animationLoop: false,
+// 		animation: 'slide',
+//     useCSS : false
+// 	 });     
 
-  $('.flex-3').flexslider({
-    animation: "slide",
-    slideshow: false,
-    useCSS : false,
-    animationLoop: false 	
-  });
+//   $('.flex-3').flexslider({
+//     animation: "slide",
+//     slideshow: false,
+//     useCSS : false,
+//     animationLoop: false 	
+//   });
  
-  jQuery('.flex-3 .flex-direction-nav .flex-next').html('<i class="icon-angle-right"></i>');
-  jQuery('.flex-3 .flex-direction-nav .flex-prev').html('<i class="icon-angle-left"></i>'); 
+//   jQuery('.flex-3 .flex-direction-nav .flex-next').html('<i class="icon-angle-right"></i>');
+//   jQuery('.flex-3 .flex-direction-nav .flex-prev').html('<i class="icon-angle-left"></i>'); 
 
-  $('.flex-4').flexslider({
-    animationLoop: false,
-		animation: 'slide',
-    useCSS : false
-	 }); 
+//   $('.flex-4').flexslider({
+//     animationLoop: false,
+// 		animation: 'slide',
+//     useCSS : false
+// 	 }); 
 
-}); 
+// }); 
 
 /* --------------------------------------------------------	
 	 Accordion Active
@@ -246,35 +246,35 @@ $(function() {
 	 Refine Slider
    --------------------------------------------------------	*/	
   
-  $(window).load(function() {
+//   $(window).load(function() {
 
-  //main slider
+//   //main slider
 
-  $('.main-slider-direct-nav').refineSlide({
-    maxWidth              : 1920,      // Max slider width - should be set to image width
-    transition            : 'random',  // String (default 'cubeV'): Transition type ('custom', random', 'cubeH', 'cubeV', 'fade', 'sliceH', 'sliceV', 'slideH', 'slideV', 'scale', 'blockScale', 'kaleidoscope', 'fan', 'blindH', 'blindV')
-    fallback3d            : 'random', // String (default 'sliceV'): Fallback for browsers that support transitions, but not 3d transforms (only used if primary transition makes use of 3d-transforms)
-    customTransitions     : [],       // Arr (Custom transitions wrapper)
-    perspective           : 1000,     // Perspective (used for 3d transforms)
-    useThumbs             : false,     // Bool (default true): Navigation type thumbnails
-    useArrows             : true,    // Bool (default false): Navigation type previous and next arrows
-    thumbMargin           : 3,        // Int (default 3): Percentage width of thumb margin
-    autoPlay              : false,    // Int (default false): Auto-cycle slider
-    delay                 : 5000,     // Int (default 5000) Time between slides in ms
-    transitionDuration    : 800,      // Int (default 800): Transition length in ms
-    startSlide            : 0,        // Int (default 0): First slide
-    keyNav                : true,     // Bool (default true): Use left/right arrow keys to switch slide
-    captionWidth          : 50,       // Int (default 50): Percentage of slide taken by caption
-    arrowTemplate         : '<div class="rs-arrows"><a href="#" class="rs-prev"></a><a href="#" class="rs-next"></a></div>', // String: The markup used for arrow controls (if arrows are used). Must use classes '.rs-next' & '.rs-prev'
-    onInit                : function () {}, // Func: User-defined, fires with slider initialisation
-    onChange              : function () {}, // Func: User-defined, fires with transition start
-    afterChange           : function () {}  // Func: User-defined, fires after transition end
+//   $('.main-slider-direct-nav').refineSlide({
+//     maxWidth              : 1920,      // Max slider width - should be set to image width
+//     transition            : 'random',  // String (default 'cubeV'): Transition type ('custom', random', 'cubeH', 'cubeV', 'fade', 'sliceH', 'sliceV', 'slideH', 'slideV', 'scale', 'blockScale', 'kaleidoscope', 'fan', 'blindH', 'blindV')
+//     fallback3d            : 'random', // String (default 'sliceV'): Fallback for browsers that support transitions, but not 3d transforms (only used if primary transition makes use of 3d-transforms)
+//     customTransitions     : [],       // Arr (Custom transitions wrapper)
+//     perspective           : 1000,     // Perspective (used for 3d transforms)
+//     useThumbs             : false,     // Bool (default true): Navigation type thumbnails
+//     useArrows             : true,    // Bool (default false): Navigation type previous and next arrows
+//     thumbMargin           : 3,        // Int (default 3): Percentage width of thumb margin
+//     autoPlay              : false,    // Int (default false): Auto-cycle slider
+//     delay                 : 5000,     // Int (default 5000) Time between slides in ms
+//     transitionDuration    : 800,      // Int (default 800): Transition length in ms
+//     startSlide            : 0,        // Int (default 0): First slide
+//     keyNav                : true,     // Bool (default true): Use left/right arrow keys to switch slide
+//     captionWidth          : 50,       // Int (default 50): Percentage of slide taken by caption
+//     arrowTemplate         : '<div class="rs-arrows"><a href="#" class="rs-prev"></a><a href="#" class="rs-next"></a></div>', // String: The markup used for arrow controls (if arrows are used). Must use classes '.rs-next' & '.rs-prev'
+//     onInit                : function () {}, // Func: User-defined, fires with slider initialisation
+//     onChange              : function () {}, // Func: User-defined, fires with transition start
+//     afterChange           : function () {}  // Func: User-defined, fires after transition end
 
-  });
-  jQuery('.rs-arrows .rs-next').html('<i class="icon-angle-right"></i>');
-  jQuery('.rs-arrows .rs-prev').html('<i class="icon-angle-left"></i>');
+//   });
+//   jQuery('.rs-arrows .rs-next').html('<i class="icon-angle-right"></i>');
+//   jQuery('.rs-arrows .rs-prev').html('<i class="icon-angle-left"></i>');
 
-});      
+// });      
 
 /* --------------------------------------------------------	
 	 SLY Effects
@@ -340,21 +340,21 @@ $(function() {
 	 Countdown
    --------------------------------------------------------	*/
 
-  $(function() {
+  // $(function() {
   
-    $('.countdown').countdown({
-      date: "december 11, 2013 14:30:00",
-      render: function(data) {
-        var el = $(this.el);
-        el.empty()
-          .append("<div class=\"counter-item item-day\">" + this.leadingZeros(data.days, 2) + "</div>")
-          .append("<div class=\"counter-item\">" + this.leadingZeros(data.hours, 2) + "</div>")
-          .append("<div class=\"counter-item\">" + this.leadingZeros(data.min, 2) + "</div>")
-          .append("<div class=\"counter-item\">" + this.leadingZeros(data.sec, 2) + "</div>");
-      }
-    });
+  //   $('.countdown').countdown({
+  //     date: "december 11, 2013 14:30:00",
+  //     render: function(data) {
+  //       var el = $(this.el);
+  //       el.empty()
+  //         .append("<div class=\"counter-item item-day\">" + this.leadingZeros(data.days, 2) + "</div>")
+  //         .append("<div class=\"counter-item\">" + this.leadingZeros(data.hours, 2) + "</div>")
+  //         .append("<div class=\"counter-item\">" + this.leadingZeros(data.min, 2) + "</div>")
+  //         .append("<div class=\"counter-item\">" + this.leadingZeros(data.sec, 2) + "</div>");
+  //     }
+  //   });
 
-  });
+  // });
         
 /* --------------------------------------------------------	
 	 Fixed Menu
@@ -389,6 +389,20 @@ $(function() {
 		$('html, body').animate({
 	        scrollTop: $($(this).find("option:selected").val()).offset().top - 100 }, 750);
   });
+
+// Datepicker.js
+ $('#date').pickadate({
+  // Escape any “rule” characters with an exclamation mark (!).
+  format: 'dddd, dd mmm, yyyy',
+  formatSubmit: 'yyyy/mm/dd',
+  hiddenPrefix: 'prefix__',
+  hiddenSuffix: '__suffix',
+   selectMonths: true,
+  selectYears: true,
+  // min: new Date(1960),
+  max: new Date(2010,12)
+  // editable: true
+})
   
 /* --------------------------------------------------------	
 	 Color Picker
